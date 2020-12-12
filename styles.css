@@ -3,3 +3,25 @@ body {
     color: #014345;
     font-family: 'Oxygen', sans-serif;
 }
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    width: 96vw;
+    margin: 0 auto;
+}
+
+figure {
+    width: 250px;
+    padding: 0.7em;
+    margin: .5em;
+    border-radius: 0% 0% 10% 10%;
+    border-style: solid;
+    border-color: #594534;
+    background-color: #D99414;
+}
+
+figure img {
+    width: 100%;
+    max-width: 100%;
+}
